@@ -12,7 +12,7 @@
     document.getElementById(id).style.display = "none";
   }
 
-  // Close modal if clicked outside
+
   window.onclick = function(event) {
     ["modal1", "modal2", "modal3"].forEach(id => {
       const modal = document.getElementById(id);
